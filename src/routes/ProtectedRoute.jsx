@@ -9,4 +9,5 @@ function ProtectedRoute({ children }) {
 
     return session ? <Outlet /> : <Navigate to="/login" replace />;
 }
+
 export default ProtectedRoute;

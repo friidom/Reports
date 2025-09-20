@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { AuthContextProvider } from "./context/AuthContext";
-
+import "./styles/index.css"
 import RootRedirect from './routes/RootRedirect';
 import Login from './routes/Login';
 import Dashboard from './pages/Dashboard.jsx';
